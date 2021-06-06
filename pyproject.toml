@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "disallow-db-connection-demo"
+version = "0.1.0"
+description = ""
+authors = ["Wilhelm Klopp <wilhelm@kolo.app>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Django = "^3.2.4"
+
+
+[tool.poetry.dev-dependencies]
+black = "^21.5b2"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
